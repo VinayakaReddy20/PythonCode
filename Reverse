@@ -1,0 +1,7 @@
+def rev_words(string):  
+    words = string.split(' ') 
+    rev = ' '.join(reversed(words)) 
+    return rev
+ 
+s= "Python is good"
+print ("reverse: ",rev_words(s))
