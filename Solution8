@@ -1,0 +1,6 @@
+V=[1,2,3,4,'a']
+try:
+    Total=sum(V)
+    print(Total)
+except:
+   print("it contains an non numeeric value")
