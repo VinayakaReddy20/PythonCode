@@ -1,0 +1,7 @@
+V={None}
+try:
+    average=sum(V.values())
+    average/=4
+    print("average of these marks are:", average)
+except:
+    print("The dictionary is empty")
