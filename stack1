@@ -1,0 +1,16 @@
+def add(e):
+    s.append(e)
+    print("item is added in to stack")
+
+def dele():
+    s.pop()
+    print("delected item ")
+
+s=[]
+add(2)
+add(4)
+add(5)
+add(6)
+print(s)
+dele()
+print(s)
