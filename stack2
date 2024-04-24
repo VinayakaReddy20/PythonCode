@@ -1,0 +1,23 @@
+s=[]
+ch=[]
+top=0
+while ch!=0:
+    print("\n 1.add\n 2.del\n 3.exit")
+    ch=int(input("enter the choice"))
+    match ch:
+            case 1:
+                a=int(input("enter the element to be inserted"))
+                s.append(a)
+                top+=1
+                print(s)
+            
+            case 2:
+                if top==0:
+                    print("stack is empty")
+                else:
+                    e=s.pop()
+                    print("deleted element is",e)
+                    print(s)
+                    top+=1
+            case 3:
+                exit()
